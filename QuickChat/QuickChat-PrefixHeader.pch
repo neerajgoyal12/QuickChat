@@ -1,0 +1,27 @@
+//
+//  QuickChat-PrefixHeader.pch
+//  QuickChat
+//
+//  Created by Systology Software Pvt Ltd on 02/11/15.
+//  Copyright © 2015 Systology Software Pvt Ltd. All rights reserved.
+//
+
+#ifndef QuickChat_PrefixHeader_pch
+#define QuickChat_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <Quickblox/Quickblox.h>
+#import <Quickblox/QBMulticastDelegate.h>
+#import <QMServices.h>
+#import <SVProgressHUD.h>
+#import <QMServices.h>
+#endif
+
+#endif /* QuickChat_PrefixHeader_pch */

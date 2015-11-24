@@ -1,0 +1,65 @@
+PODS:
+  - Bolts (1.3.0):
+    - Bolts/AppLinks (= 1.3.0)
+    - Bolts/Tasks (= 1.3.0)
+  - Bolts/AppLinks (1.3.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.3.0)
+  - libextobjc/EXTKeyPathCoding (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - QMChatViewController (0.2.5):
+    - QMChatViewController/Categories (= 0.2.5)
+    - QMChatViewController/KeyboardViewController (= 0.2.5)
+    - QMChatViewController/Protocols (= 0.2.5)
+    - QMChatViewController/Views (= 0.2.5)
+    - QuickBlox (~> 2.3)
+    - SDWebImage (~> 3.6)
+    - TTTAttributedLabel (~> 1.13)
+  - QMChatViewController/Categories (0.2.5):
+    - QuickBlox (~> 2.3)
+    - SDWebImage (~> 3.6)
+    - TTTAttributedLabel (~> 1.13)
+  - QMChatViewController/KeyboardViewController (0.2.5):
+    - QuickBlox (~> 2.3)
+    - SDWebImage (~> 3.6)
+    - TTTAttributedLabel (~> 1.13)
+  - QMChatViewController/Protocols (0.2.5):
+    - QuickBlox (~> 2.3)
+    - SDWebImage (~> 3.6)
+    - TTTAttributedLabel (~> 1.13)
+  - QMChatViewController/Views (0.2.5):
+    - QMChatViewController/Categories
+    - QMChatViewController/Protocols
+    - QuickBlox (~> 2.3)
+    - SDWebImage (~> 3.6)
+    - TTTAttributedLabel (~> 1.13)
+  - QMServices (0.3):
+    - Bolts (= 1.3.0)
+    - libextobjc/EXTKeyPathCoding (= 0.4.1)
+    - libextobjc/EXTScope (= 0.4.1)
+    - QuickBlox (~> 2.5)
+  - QuickBlox (2.5)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - TTTAttributedLabel (1.13.4)
+
+DEPENDENCIES:
+  - QMChatViewController (~> 0.1)
+  - QMServices
+  - QuickBlox
+  - TTTAttributedLabel
+
+SPEC CHECKSUMS:
+  Bolts: 805a4a87413e49d4a0c2b7d469084cbc46b09342
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
+  QMChatViewController: 12687df60adf52236e3ca5de399b04e33f2cfaea
+  QMServices: 146aed3b7e5838fe515c4b80babb7e4343f44c3f
+  QuickBlox: 631deb7682f4425833ad45468ddbcc7c7454c028
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
+
+COCOAPODS: 0.39.0
